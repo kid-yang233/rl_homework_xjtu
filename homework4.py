@@ -113,7 +113,7 @@ def figure7_2():
     plt.ylim([0.25, 0.55])
     plt.legend()
 
-    plt.savefig('homework/RL/homework4/figure_2.png')
+    plt.savefig('homework4/figure_2.png')
     plt.close()
 
 if __name__ == '__main__':
