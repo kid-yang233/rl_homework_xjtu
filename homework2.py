@@ -158,7 +158,7 @@ if __name__ == "__main__":
     ax.plot(range(epochs),delta)
     ax.set_xlabel('epoch')
     ax.set_ylabel('delta')
-    plt.savefig('homework/RL/homework2/task1/delta.png')
+    plt.savefig('homework2/task1/delta.png')
     ax.clear()
     plt.close(fig)
 
@@ -184,6 +184,6 @@ if __name__ == "__main__":
         ax.set_ylabel('postion 2 ')
         ax.xaxis.set_major_locator(ticker.MaxNLocator(integer=True))
         ax.yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
-        plt.savefig('homework/RL/homework2/task1/epoch{}.png'.format(epoch+1))
+        plt.savefig('homework2/task1/epoch{}.png'.format(epoch+1))
         ax.clear()
         plt.close(fig)
