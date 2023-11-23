@@ -68,7 +68,7 @@ plt.plot(time,a2_aver_r,color='blue',linewidth=2, markersize=12,label="exponenti
 plt.legend()
 plt.ylabel(u'averge_reward') 
 plt.xlabel(u'time')
-plt.savefig('/home/yjj2022/homework/RL/homework1.png')
+plt.savefig('homework1.png')
 plt.clf()
 
 plt.plot(time,a1_action,color='green',linewidth=2, markersize=12,label="sampling averge")
@@ -76,4 +76,4 @@ plt.plot(time,a2_action,color='blue',linewidth=2, markersize=12,label="exponenti
 plt.legend()
 plt.ylabel(u'best_action percent') 
 plt.xlabel(u'time')
-plt.savefig('/home/yjj2022/homework/RL/homework1a.png')
+plt.savefig('homework1a.png')
